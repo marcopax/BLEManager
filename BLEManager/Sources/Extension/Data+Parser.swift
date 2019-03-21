@@ -12,13 +12,7 @@ import Foundation
 extension Data {
     var isZeroFilled: Bool {
         get {
-            var res = true
-            self.toHexString().forEach { (element) in
-                if String(element) != "0" {
-                    res = false
-                }
-            }
-            return res
+            return toHexString().filter({ $0 != "0"}).count == 0
         }
     }
 }

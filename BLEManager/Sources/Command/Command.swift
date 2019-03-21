@@ -194,6 +194,7 @@ public enum CommandCode: String {
 }
 
 
+
 class Command: Hashable {
     var commandCode: CommandCode = .UNDEF
     var hexMessage: String = ""
@@ -208,22 +209,22 @@ class Command: Hashable {
         self.gateway = gateway
         self.target = target
         self.args = payload
-        
         self.hexMessage = "\(code.asiiHexValue)\(gateway)\(target)\(args)"
         self.rawData = hexMessage.hexDecodedData()
     }
-    
     
     func hash(into hasher: inout Hasher) {
         hasher.combine(hexMessage)
     }
     
-    static func ==(lhs: Command, rhs: Command) -> Bool {
-        return lhs.hexMessage == rhs.hexMessage
-    }
-    
     var description: String {
         return commandCode.description
+    }
+}
+
+extension Command {
+    static func ==(lhs: Command, rhs: Command) -> Bool {
+        return lhs.hexMessage == rhs.hexMessage
     }
 }
 

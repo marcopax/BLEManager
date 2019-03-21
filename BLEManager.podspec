@@ -1,12 +1,12 @@
 Pod::Spec.new do |s|
   s.name    = "BLEManager"
   s.version = "1.0.0"
-  s.summary = "A simple framwork writtend in Swift that wrapping CoreBluetooth framework"
+  s.summary = "A simple framework to wrap the Apple CoreBluetooth framework"
   s.license = {
     :type => 'MIT', :text => <<-LICENSE
       MIT License
 
-      Copyright (c) 2018 Jumbo Tech Campus
+      Copyright (c) 2018 ABLE
 
       Permission is hereby granted, free of charge, to any person obtaining a copy
       of this software and associated documentation files (the "Software"), to deal
@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
   s.social_media_url = "https://twitter.com/able_srls"
 
   s.swift_version = '4.2'
-  s.platform      = :ios, "9.0"
+  s.platform      = :ios, "10.0"
   s.source        = { :git => "https://github.com/able-srls/BLEManager.git", :tag => "#{s.version}" }
-  s.source_files  = "BLEManager/Source/**/*.{swift}"
+  s.source_files  = "BLEManager/Sources/**/*.{swift}"
 end

@@ -1,12 +1,11 @@
 use_frameworks!
 
-target 'BLEManager_Example' do
-  pod 'BLEManager', :path => '../'
+target 'BLEManager' do
+end
 
-  target 'BLEManager_Tests' do
+target 'BLEManagerTests' do
     inherit! :search_paths
 
     pod 'Quick', '~> 1.2.0'
     pod 'Nimble', '~> 7.0.2'
-  end
 end
