@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0930"
+   LastUpgradeVersion = "1010"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4DA56F48E79261D170CD3B35BD441B50"
-               BuildableName = "Pods_BLEManager_Example.framework"
-               BlueprintName = "Pods-BLEManager_Example"
+               BlueprintIdentifier = "DC4A508AC335F2C0791EF91832C84CB1"
+               BuildableName = "Pods_BLEManager_Tests.framework"
+               BlueprintName = "Pods-BLEManager_Tests"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4DA56F48E79261D170CD3B35BD441B50"
-            BuildableName = "Pods_BLEManager_Example.framework"
-            BlueprintName = "Pods-BLEManager_Example"
+            BlueprintIdentifier = "DC4A508AC335F2C0791EF91832C84CB1"
+            BuildableName = "Pods_BLEManager_Tests.framework"
+            BlueprintName = "Pods-BLEManager_Tests"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

@@ -1,31 +1,36 @@
 # BLEManager
 
-CoreBluetooth wrapper for simplifying usage and framework interactions
+[![Build Status](https://travis-ci.org/able/BLEManager.svg?branch=master)](https://travis-ci.org/jable/BLEManager)
 
-[![CI Status](https://img.shields.io/travis/BLEManager/BLEManager.svg?style=flat)](https://travis-ci.org/BLEManager/BLEManager)
-[![Version](https://img.shields.io/cocoapods/v/BLEManager.svg?style=flat)](https://cocoapods.org/pods/BLEManager)
-[![License](https://img.shields.io/cocoapods/l/BLEManager.svg?style=flat)](https://cocoapods.org/pods/BLEManager)
-[![Platform](https://img.shields.io/cocoapods/p/BLEManager.svg?style=flat)](https://cocoapods.org/pods/BLEManager)
+This project contains a generic bluetooth framework for Swift.
 
-## Example
+Together they make the code fully testable and can be developed & expanded test-driven.
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+## Architecture
 
-## Requirements
+
+## Notes
+
 
 ## Installation
 
-BLEManager is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
 
-```ruby
-pod 'BLEManager'
+### Library
+
+```
+$ git clone https://github.com/able/BLEManager
+$ cd BLEManager/BLEManager
+$ open BLEManager.xcworkspace
 ```
 
-## Author
+Now you can open the workspace and run the unit tests to check that everything works properly.
 
-ABLE, r.paolillo@a-ble.com
+### DemoApp
 
-## License
+```
+$ git clone https://github.com/able/BLEManager
+$ cd BLEManager/BLEManagerExample
+$ open BLEManager.xcworkspace
+```
 
-BLEManager is available under the MIT license. See the LICENSE file for more info.
+## Future improvement
