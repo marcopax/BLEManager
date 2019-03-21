@@ -28,9 +28,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		16112F0D5EDD97BC818E3043 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		16112F0D5EDD97BC818E3043 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		1E741B57F86B6ED179EED804 /* Pods-BLEManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BLEManager_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-BLEManager_Example/Pods-BLEManager_Example.release.xcconfig"; sourceTree = "<group>"; };
-		521CDE28628F8DDD3E4C83A9 /* BLEManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = BLEManager.podspec; path = ../BLEManager.podspec; sourceTree = "<group>"; };
+		521CDE28628F8DDD3E4C83A9 /* BLEManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BLEManager.podspec; path = ../BLEManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACD01AFB9204008FA782 /* BLEManager_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BLEManager_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,7 +41,7 @@
 		607FACE51AFB9204008FA782 /* BLEManager_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BLEManager_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		72C324BA7B4016A886867261 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		72C324BA7B4016A886867261 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		7B814000419366BA638962F2 /* Pods_BLEManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BLEManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A32B546C52152CE323F871B3 /* Pods_BLEManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BLEManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFD85FEA8E75C77168153AFB /* Pods-BLEManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BLEManager_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BLEManager_Tests/Pods-BLEManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
