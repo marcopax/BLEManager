@@ -15,6 +15,14 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		7B4F1FD9EA219435FD8AB9BA /* Pods_BLEManager_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B814000419366BA638962F2 /* Pods_BLEManager_Example.framework */; };
+		B252DF112243BB0A009207E8 /* Data+Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B252DF062243BB0A009207E8 /* Data+Parser.swift */; };
+		B252DF122243BB0A009207E8 /* Utils+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = B252DF072243BB0A009207E8 /* Utils+Hex.swift */; };
+		B252DF132243BB0A009207E8 /* ServiceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B252DF092243BB0A009207E8 /* ServiceModel.swift */; };
+		B252DF142243BB0A009207E8 /* PeripheralDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = B252DF0A2243BB0A009207E8 /* PeripheralDevice.swift */; };
+		B252DF152243BB0A009207E8 /* BluetoothManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B252DF0C2243BB0A009207E8 /* BluetoothManager.swift */; };
+		B252DF162243BB0A009207E8 /* TimeoutTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B252DF0D2243BB0A009207E8 /* TimeoutTimer.swift */; };
+		B252DF172243BB0A009207E8 /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = B252DF0F2243BB0A009207E8 /* Command.swift */; };
+		B252DF182243BB0A009207E8 /* CommandResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B252DF102243BB0A009207E8 /* CommandResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +49,14 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		7B814000419366BA638962F2 /* Pods_BLEManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BLEManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A32B546C52152CE323F871B3 /* Pods_BLEManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BLEManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B252DF062243BB0A009207E8 /* Data+Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+Parser.swift"; sourceTree = "<group>"; };
+		B252DF072243BB0A009207E8 /* Utils+Hex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Utils+Hex.swift"; sourceTree = "<group>"; };
+		B252DF092243BB0A009207E8 /* ServiceModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceModel.swift; sourceTree = "<group>"; };
+		B252DF0A2243BB0A009207E8 /* PeripheralDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeripheralDevice.swift; sourceTree = "<group>"; };
+		B252DF0C2243BB0A009207E8 /* BluetoothManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetoothManager.swift; sourceTree = "<group>"; };
+		B252DF0D2243BB0A009207E8 /* TimeoutTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeoutTimer.swift; sourceTree = "<group>"; };
+		B252DF0F2243BB0A009207E8 /* Command.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Command.swift; sourceTree = "<group>"; };
+		B252DF102243BB0A009207E8 /* CommandResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommandResponse.swift; sourceTree = "<group>"; };
 		BFD85FEA8E75C77168153AFB /* Pods-BLEManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BLEManager_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BLEManager_Tests/Pods-BLEManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		CAD682469B62A8DD75DD13A5 /* Pods-BLEManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BLEManager_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BLEManager_Example/Pods-BLEManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E4C5E553C0BC625609C5298F /* Pods-BLEManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BLEManager_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BLEManager_Tests/Pods-BLEManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -102,7 +118,7 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
-				B252DEFE2243B62B009207E8 /* Sources */,
+				B252DF042243BB0A009207E8 /* Sources */,
 				B252DF032243B636009207E8 /* Resources */,
 			);
 			path = BLEManager;
@@ -134,46 +150,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		B252DEFE2243B62B009207E8 /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				B252DEFF2243B62B009207E8 /* Extension */,
-				B252DF002243B62B009207E8 /* Models */,
-				B252DF012243B62B009207E8 /* Components */,
-				B252DF022243B62B009207E8 /* Command */,
-			);
-			name = Sources;
-			path = ../../BLEManager/Sources;
-			sourceTree = "<group>";
-		};
-		B252DEFF2243B62B009207E8 /* Extension */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Extension;
-			sourceTree = "<group>";
-		};
-		B252DF002243B62B009207E8 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		B252DF012243B62B009207E8 /* Components */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Components;
-			sourceTree = "<group>";
-		};
-		B252DF022243B62B009207E8 /* Command */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Command;
-			sourceTree = "<group>";
-		};
 		B252DF032243B636009207E8 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -183,6 +159,54 @@
 				607FACD41AFB9204008FA782 /* Info.plist */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		B252DF042243BB0A009207E8 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				B252DF052243BB0A009207E8 /* Extension */,
+				B252DF082243BB0A009207E8 /* Models */,
+				B252DF0B2243BB0A009207E8 /* Components */,
+				B252DF0E2243BB0A009207E8 /* Command */,
+			);
+			name = Sources;
+			path = ../../BLEManager/Sources;
+			sourceTree = "<group>";
+		};
+		B252DF052243BB0A009207E8 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B252DF062243BB0A009207E8 /* Data+Parser.swift */,
+				B252DF072243BB0A009207E8 /* Utils+Hex.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		B252DF082243BB0A009207E8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B252DF092243BB0A009207E8 /* ServiceModel.swift */,
+				B252DF0A2243BB0A009207E8 /* PeripheralDevice.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B252DF0B2243BB0A009207E8 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B252DF0C2243BB0A009207E8 /* BluetoothManager.swift */,
+				B252DF0D2243BB0A009207E8 /* TimeoutTimer.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		B252DF0E2243BB0A009207E8 /* Command */ = {
+			isa = PBXGroup;
+			children = (
+				B252DF0F2243BB0A009207E8 /* Command.swift */,
+				B252DF102243BB0A009207E8 /* CommandResponse.swift */,
+			);
+			path = Command;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -370,8 +394,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B252DF132243BB0A009207E8 /* ServiceModel.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				B252DF152243BB0A009207E8 /* BluetoothManager.swift in Sources */,
+				B252DF182243BB0A009207E8 /* CommandResponse.swift in Sources */,
+				B252DF112243BB0A009207E8 /* Data+Parser.swift in Sources */,
+				B252DF172243BB0A009207E8 /* Command.swift in Sources */,
+				B252DF162243BB0A009207E8 /* TimeoutTimer.swift in Sources */,
+				B252DF122243BB0A009207E8 /* Utils+Hex.swift in Sources */,
+				B252DF142243BB0A009207E8 /* PeripheralDevice.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -465,6 +497,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -512,6 +545,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -524,12 +558,13 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 42EAQ8DVJ4;
 				INFOPLIST_FILE = "$(SRCROOT)/BLEManager/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -541,12 +576,13 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 42EAQ8DVJ4;
 				INFOPLIST_FILE = "$(SRCROOT)/BLEManager/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};

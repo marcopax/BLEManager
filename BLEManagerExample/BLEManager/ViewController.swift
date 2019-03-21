@@ -3,7 +3,7 @@
 //  BLEManager
 //
 //  Created by OpenGeoBase on 03/21/2019.
-//  Copyright (c) 2019 OpenGeoBase. All rights reserved.
+//  Copyright (c) 2019 ABLE. All rights reserved.
 //
 
 import UIKit

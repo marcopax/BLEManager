@@ -1,6 +1,6 @@
 # BLEManager
 
-[![Build Status](https://travis-ci.org/able/BLEManager.svg?branch=master)](https://travis-ci.org/jable/BLEManager)
+[![Build Status](https://travis-ci.org/able/BLEManager.svg?branch=master)](https://travis-ci.org/able/BLEManager)
 
 This project contains a generic bluetooth framework for Swift.
 

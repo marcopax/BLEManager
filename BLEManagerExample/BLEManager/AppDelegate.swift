@@ -3,7 +3,7 @@
 //  BLEManager
 //
 //  Created by OpenGeoBase on 03/21/2019.
-//  Copyright (c) 2019 OpenGeoBase. All rights reserved.
+//  Copyright (c) 2019 ABLE. All rights reserved.
 //
 
 import UIKit
@@ -14,7 +14,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
 
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+    private func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         return true
     }
