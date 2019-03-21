@@ -18,7 +18,7 @@ Together they make the code fully testable and can be developed & expanded test-
 ### Library
 
 ```
-$ git clone https://github.com/able/BLEManager
+$ git clone https://github.com/able-srls/BLEManager
 $ cd BLEManager/BLEManager
 $ open BLEManager.xcworkspace
 ```
@@ -28,7 +28,7 @@ Now you can open the workspace and run the unit tests to check that everything w
 ### DemoApp
 
 ```
-$ git clone https://github.com/able/BLEManager
+$ git clone https://github.com/able-srls/BLEManager
 $ cd BLEManager/BLEManagerExample
 $ open BLEManager.xcworkspace
 ```
