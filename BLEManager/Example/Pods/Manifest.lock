@@ -1,0 +1,27 @@
+PODS:
+  - BLEManager (0.1.0)
+  - Nimble (7.0.3)
+  - Quick (1.2.0)
+
+DEPENDENCIES:
+  - BLEManager (from `../`)
+  - Nimble (~> 7.0.2)
+  - Quick (~> 1.2.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Nimble
+    - Quick
+
+EXTERNAL SOURCES:
+  BLEManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BLEManager: e0d45cf251a247e8ea562f7bec5c598d342572e6
+  Nimble: 7f5a9c447a33002645a071bddafbfb24ea70e0ac
+  Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
+
+PODFILE CHECKSUM: 4da312ffd2e09457508380df281dad2e09791f83
+
+COCOAPODS: 1.5.3

@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
   }
 
   s.author           = "ABLE srls"
-  s.homepage         = "https://a-ble.com/"
+  s.homepage         = "http://a-ble.com/"
   s.social_media_url = "https://twitter.com/able_srls"
 
   s.swift_version = '4.2'
